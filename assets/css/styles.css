@@ -1,0 +1,90 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+
+  /* Core Colors */
+  --first-color: hsl(14, 98%, 50%);
+  --black-color: #2a2a2a;
+  --white-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 35%);
+  --container-color: hsl(0, 0%, 83%);
+  --body-color: hsl(0, 0%, 87%);
+  --accent-color: rgba(255, 255, 255, 0.9); /* Hover effect brightness */
+
+  /* Gradients & Effects */
+  --primary-bg: linear-gradient(135deg, #1b2735, #090a0f);
+  --glass-bg: rgba(255, 255, 255, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --highlight-color: rgba(255, 255, 255, 0.6);
+    
+  /*========== Font and typography ==========*/
+  --body-font: "Bai Jamjuree", sans-serif;
+
+  --h1: clamp(2.5rem, 5vw, 4rem);
+  --h2: clamp(1.5rem, 4vw, 2.5rem);
+  --body-text: clamp(.9rem, 2vw, 1.3rem);
+  --small-body: clamp(0.7rem, 1.5vw, .9rem);
+  
+  /*========== Margin Padding ==========*/
+
+  --space-xs: clamp(0.75rem, 1vw, 1rem);  /* Extra Small */
+  --space-sm: clamp(1rem, 2vw, 1.5rem);  /* Small */
+  --space-md: clamp(1.5rem, 3vw, 2rem);  /* Medium */
+  --space-lg: clamp(2rem, 4vw, 3rem);    /* Large */
+  --space-xl: clamp(3rem, 5vw, 4rem);    /* Extra Large */
+
+  /*========== Font weight ==========*/
+
+  --f-300: 300;
+  --f-400: 400;
+  --f-500: 500;
+  --f-600: 600;
+  --f-700: 700;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /*========== Box-Shadow ==========*/
+  --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2), 
+  0px 10px 20px rgba(0, 0, 0, 0.15), 
+  0px 20px 40px rgba(0, 0, 0, 0.1);
+
+  /*========== Link Icon ==========*/
+  --link-color: hsl(210, 90%, 50%);
+  --link-hover: hsl(210, 90%, 60%);
+  --icon-size: clamp(1rem, 1.7vw, 2rem); /* Icon size scales responsively */       
+
+}
+
+/*=============== SCROLL BAR ===============*/
+
+/*=============== SCROLL UP ===============*/
+
+/*=============== BASE ===============*/
+
+/*========== SCROLL REVEAL ANIMATION ==========*/
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+/*=============== BUTTON ===============*/
+
+/*=============== HEADER & NAV ===============*/
+
+/*=============== HOME ===============*/
+
+/*=============== ABOUT ===============*/
+
+/*=============== SERVICES ===============*/
+
+/*=============== PROJECTS ===============*/
+
+/*=============== CONTACT ===============*/
+
+/*=============== FOOTER ===============*/
+
+/*=============== MEDIA QUERIES ===============*/
