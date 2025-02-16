@@ -1,0 +1,133 @@
+========== HOME ==========
+ri-linkedin-box-line
+ri-instagram-line
+ri-github-line
+
+ri-arrow-right-line
+
+I'm a Web Designer & Creative Developer. I specialize in creating modern,
+user-friendly websites with stunning visuals and smooth animations.
+
+========== ABOUT ==========
+i'm available for freelance job, hire me!
+
+Hi! I'm Perry Dom, a passionate Web Designer & Creative Developer. I specialize in creating innovative and user-centric designs with a touch of creativity. Let's build something amazing together! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nobis. Assumenda mollitia modi eius quas sit quia sapiente esse minima! A explicabo molestiae illum minus sunt cum fuga enim voluptatibus.
+
+name:
+perry dom
+
+birthday:
+1st Sept 1770
+
+age:
+3 centuries
+
+phone:
+tel:+1234567890
+
+email:
+mailto:abc@gmail.com
+
+linkedin:
+@abc/linkedin.com
+
+ri-download-cloud-line
+
+========== SERVICES ==========
+ri-arrow-right-line
+
+ri-close-circle-line
+Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Responsive Design: Stunning websites for all devices
+Modern Tech: Built with cutting-edge tools.
+Custom Solutions: Tailored to your needs.
+Secure and Reliable: Strong, dependable, and glitch-free.
+
+ri-arrow-right-line
+Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+User-Centered: Intuitive and engaging layouts.
+Brand Consistency: Cohesive design with your identity.
+Prototyping: Test-driven interactive designs.
+Accessible: Inclusive for all users.
+
+ri-arrow-right-line
+Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Visual Storytelling: Designs that convey your brand's message.
+Custom Graphics: Unique visuals tailored to your needs.
+High Quality: Eye-catching and professional designs.
+Versatile Creations: From logos to marketing materials.
+
+ri-arrow-right-line
+Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Responsive Design: Stunning websites for all devices
+Modern Tech: Built with cutting-edge tools.
+Custom Solutions: Tailored to your needs.
+Secure and Reliable: Strong, dependable, and glitch-free
+
+ri-arrow-right-line
+Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+User-Centered: Intuitive and engaging layouts.
+Brand Consistency: Cohesive design with your identity.
+Prototyping: Test-driven interactive designs.
+Accessible: Inclusive for all users.
+
+ri-arrow-right-line
+Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Visual Storytelling: Designs that convey your brand's message.
+Custom Graphics: Unique visuals tailored to your needs.
+High Quality: Eye-catching and professional designs.
+Versatile Creations: From logos to marketing materials.
+
+========== PROJECTS ==========
+Design Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Development Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+UI/UX Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Design Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Development Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+UI/UX Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+========== CONTACT ==========
+ri-mail-send-line
+email@gmail.com
+ri-arrow-right-up-line
+
+ri-messenger-line
+perry.Dom-fb124
+ri-arrow-right-up-line
+
++12 345 678 90
+ri-arrow-right-up-line
+
+ri-facebook-line
+ri-twitter-line
+ri-linkedin-line
+
+Bold of you to assume I will answer within 24 hours!
+
+========== FOOTER ==========
+A passionate web designer and developer creating unique experiences with modern technology. Let's build something amazing together!
+
+ri-whatsapp-line
+ri-twitter-line
+ri-linkedin-line
+ri-instagram-line
+
+ri-mail-send-line
+example@email.com
+
+ri-phone-line
++123 456 7890
+
+ri-map-pin-line
+Your City, Your Country
