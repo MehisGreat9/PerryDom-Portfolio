@@ -17,26 +17,524 @@
       <title>Responsive Portfolio Website PerryDom - NerdyCodeCrafter</title>
    </head>
    <body>
-      <!--==================== HEADER ====================-->
+      
+      <!--==================== HEADER/NAV ====================-->
+      <header class="header" id="header">
+         <div class="head_name" data-reveal>
+            <h3>Perry Dom</h3>
+            <p>web developer & designer</p>
+         </div>
+         <div class="contactChat_head icns" data-reveal>
+            <a href="mailto:yourname@example.com" class="email icon">yourname@example.com</a>
+            <a href="tel:+1234567890" class="phone icon">+1234567890</a>
+         </div>
+      </header>
 
+      <!-- MENU -->
+      <div class="menu">
+         <span class="menu_icon"></span>
+      </div>
+      <div class="menu_links">
+         <a href="#home">home</a>
+         <a href="#about">about me</a>
+         <a href="#services">Services</a>
+         <a href="#portfolio">Portfolio</a>
+         <a href="#contact">contact</a>
+      </div>
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home_section">
+               <div class="icns icons" data-reveal="left">
+                  <a href="" class="icon"><i class="ri-linkedin-box-line"></i></a>
+                  <a href="" class="icon"><i class="ri-instagram-line"></i></a>
+                  <a href="" class="icon"><i class="ri-github-line"></i></a>
+               </div>
+               <div class="image_container">
+                  <img src="assets/img/home.jpg" alt="">
+                  <div class="new_btn">
+                     <a href="#portfolio">my Portfolio <i class="ri-arrow-right-line"></i></a>
+                  </div>
+               </div>
+               <div class="home_content" data-reveal="right">
+                  <div class="drop">
+                     <div class="home_text">
+                        <h3>hi, I'm <span>Perry Dom</span></h3>
+                        <p>I'm a Web Designer & Creative Developer. I specialize in creating modern,
+                           user-friendly websites with stunning visuals and smooth animations.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
          <!--==================== ABOUT ====================-->
+         <section id="about" class="about">
+            <div class="abtImg_profile" data-reveal="left">
+               <div class="abtImg_border one"></div>
+               <div class="abtImg_border two"></div>
+               <div class="img_box">
+                  <img src="assets/img/about.jpg" alt="" class="abtImg" width="100%">
+               </div>
+               <div class="profile_name">
+                  <div class="sub_title">perry dom</div>
+                  <a href="#contact" class="abt_contactLink">
+                     <span class="circle"></span>
+                     <div>i'm available for freelance job, hire me!</div>
+                  </a>
+               </div>
+            </div>
+            <div class="abt_content" data-reveal="right">
+               <div class="text_wrapper">
+                  <div class="top">About me</div>
+                  <div class="bottom" aria-hidden="true">About me</div>
+               </div>
+               <h2 class="sub_title">biography</h2>
+               <p class="section_desc">
+                  Hi! I'm Perry Dom, a passionate Web Designer & Creative Developer. I specialize in creating innovative and user-centric designs with a touch of creativity. Let's build something amazing together! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nobis. Assumenda mollitia modi eius quas sit quia sapiente esse minima! A explicabo molestiae illum minus sunt cum fuga enim voluptatibus.
+               </p>
+               <table class="about_table">
+                  <tr>
+                     <th>name: </th>
+                     <td>Perry Dom</td>
+                  </tr>
+                  <tr>
+                     <th>birthday: </th>
+                     <td>1st sept 1770</td>
+                  </tr>
+                  <tr>
+                     <th>age: </th>
+                     <td>3 centuries</td>
+                  </tr>
+                  <tr>
+                     <th>phone: </th>
+                     <td><a href="tel:+1234567890" class="link_underline">(+12)34567890</a></td>
+                  </tr>
+                  <tr>
+                     <th>email: </th>
+                     <td><a href="mailto:abc@gmail.com" class="link_underline">abc@gmail.com</a></td>
+                  </tr>
+                  <tr>
+                     <th>Linkedin: </th>
+                     <td><a href="#" class="link_underline">@abc/linkedin.com</a></td>
+                  </tr>
+               </table>
+               <button class="download_cv">
+                  <i class="ri-download-cloud-line icn"></i>
+                  <span>download CV</span>
+               </button>
+            </div>
+         </section>
 
          <!--==================== SERVICES ====================-->
+         <section class="services" id="services">
+            <div class="text_wrapper">
+               <div class="top">Services</div>
+               <div class="bottom" aria-hidden="true">Services</div>
+            </div><br>
+            <div class="sub_title">what i offer</div>
+            <div class="services_container container grid">
+               <div class="services_content">
+                  <div>
+                     <i class="ri-pages-line service_icon"></i>
+                     <h3 class="sub_title">web <br> designer</h3>
+                  </div>
+                  <span class="service_btn">
+                     view more <i class="ri-arrow-right-line service_btn_icon"></i>
+                  </span>
+                  <div class="service_modal">
+                     <div class="service_modal_content">
+                        <i class="ri-close-circle-line service_modal_close"></i>
+                        <h3 class="serviceModal_title">web development</h3>
+                        <p class="serviceModal_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <ul class="servicesModal_server grid">
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Responsive Design: Stunning websites for all devices</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Modern Tech: Built with cutting-edge tools.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Custom Solutions: Tailored to your needs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Secure and Reliable: Strong, dependable, and glitch-free.</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="services_content">
+                  <div>
+                     <i class="ri-code-line service_icon"></i>
+                     <h3 class="sub_title">UI/UX <br> designer</h3>
+                  </div>
+                  <span class="service_btn">
+                     view more <i class="ri-arrow-right-line service_btn_icon"></i>
+                  </span>
+                  <div class="service_modal">
+                     <div class="service_modal_content">
+                        <i class="ri-close-circle-line service_modal_close"></i>
+                        <h3 class="serviceModal_title">UI/UX Designer</h3>
+                        <p class="serviceModal_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <ul class="servicesModal_server grid">
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">User-Centered: Intuitive and engaging layouts.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Brand Consistency: Cohesive design with your identity.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Prototyping: Test-driven interactive designs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Accessible: Inclusive for all users.</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="services_content">
+                  <div>
+                     <i class="ri-seo-line service_icon"></i>
+                     <h3 class="sub_title">Graphic <br> designer</h3>
+                  </div>
+                  <span class="service_btn">
+                     view more <i class="ri-arrow-right-line service_btn_icon"></i>
+                  </span>
+                  <div class="service_modal">
+                     <div class="service_modal_content">
+                        <i class="ri-close-circle-line service_modal_close"></i>
+                        <h3 class="serviceModal_title">Graphic Designer</h3>
+                        <p class="serviceModal_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <ul class="servicesModal_server grid">
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Visual Storytelling: Designs that convey your brand's message.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Custom Graphics: Unique visuals tailored to your needs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">High Quality: Eye-catching and professional designs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Versatile Creations: From logos to marketing materials.</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="services_content">
+                  <div>
+                     <i class="ri-pages-line service_icon"></i>
+                     <h3 class="sub_title">web <br> designer</h3>
+                  </div>
+                  <span class="service_btn">
+                     view more <i class="ri-arrow-right-line service_btn_icon"></i>
+                  </span>
+                  <div class="service_modal">
+                     <div class="service_modal_content">
+                        <i class="ri-close-circle-line service_modal_close"></i>
+                        <h3 class="serviceModal_title">web development</h3>
+                        <p class="serviceModal_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <ul class="servicesModal_server grid">
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Responsive Design: Stunning websites for all devices</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Modern Tech: Built with cutting-edge tools.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Custom Solutions: Tailored to your needs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Secure and Reliable: Strong, dependable, and glitch-free.</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="services_content">
+                  <div>
+                     <i class="ri-code-line service_icon"></i>
+                     <h3 class="sub_title">UI/UX <br> designer</h3>
+                  </div>
+                  <span class="service_btn">
+                     view more <i class="ri-arrow-right-line service_btn_icon"></i>
+                  </span>
+                  <div class="service_modal">
+                     <div class="service_modal_content">
+                        <i class="ri-close-circle-line service_modal_close"></i>
+                        <h3 class="serviceModal_title">UI/UX Designer</h3>
+                        <p class="serviceModal_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <ul class="servicesModal_server grid">
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">User-Centered: Intuitive and engaging layouts.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Brand Consistency: Cohesive design with your identity.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Prototyping: Test-driven interactive designs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Accessible: Inclusive for all users.</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="services_content">
+                  <div>
+                     <i class="ri-seo-line service_icon"></i>
+                     <h3 class="sub_title">Graphic <br> designer</h3>
+                  </div>
+                  <span class="service_btn">
+                     view more <i class="ri-arrow-right-line service_btn_icon"></i>
+                  </span>
+                  <div class="service_modal">
+                     <div class="service_modal_content">
+                        <i class="ri-close-circle-line service_modal_close"></i>
+                        <h3 class="serviceModal_title">Graphic Designer</h3>
+                        <p class="serviceModal_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <ul class="servicesModal_server grid">
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Visual Storytelling: Designs that convey your brand's message.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Custom Graphics: Unique visuals tailored to your needs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">High Quality: Eye-catching and professional designs.</p>
+                           </li>
+                           <li class="serviceModal_points">
+                              <i class="ri-star-line serviceModalIcon"></i>
+                              <p class="serviceModal_info">Versatile Creations: From logos to marketing materials.</p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
          <!--==================== PROJECTS ====================-->
+         <section class="portfolio section grid" id="portfolio">
+            <div class="text_wrapper">
+               <div class="top">Portfolio</div>
+               <div class="bottom" aria-hidden="true">Portfolio</div>
+            </div>
+            <div class="filter" data-reveal>
+               <button class="filter_btn new_btn" data-category="all">All</button>
+               <button class="filter_btn new_btn" data-category="design">design</button>
+               <button class="filter_btn new_btn" data-category="development">development</button>
+               <button class="filter_btn new_btn" data-category="ui-ux">UI/UX</button>
+            </div>
+            <div class="timeline">
+               <div class="timeline_item design">
+                  <img src="assets/img/project-1.jpg" alt="design">
+                  <div class="timeline_year">2020</div>
+                  <div class="project_info" data-reveal="right">
+                     <h3>design project</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+               <div class="timeline_item development">
+                  <img src="assets/img/project-2.jpg" alt="development">
+                  <div class="timeline_year">2021</div>
+                  <div class="project_info" data-reveal="right">
+                     <h3>development project</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+               <div class="timeline_item ui-ux">
+                  <img src="assets/img/project-3.jpg" alt="UI/UX">
+                  <div class="timeline_year">2022</div>
+                  <div class="project_info" data-reveal="right">
+                     <h3>UI/UX project</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+               <div class="timeline_item design">
+                  <img src="assets/img/project-1.jpg" alt="design">
+                  <div class="timeline_year">2023</div>
+                  <div class="project_info" data-reveal="right">
+                     <h3>design project</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+               <div class="timeline_item development">
+                  <img src="assets/img/project-2.jpg" alt="development">
+                  <div class="timeline_year">2024</div>
+                  <div class="project_info" data-reveal="right">
+                     <h3>development project</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+               <div class="timeline_item ui-ux">
+                  <img src="assets/img/project-3.jpg" alt="UI/UX">
+                  <div class="timeline_year">2025</div>
+                  <div class="project_info" data-reveal="right">
+                     <h3>UI/UX project</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
 
          <!--==================== CONTACT ====================-->
+         <section class="contact section grid" id="contact">
+            <div class="contact_container grid">
+               <div class="wrapper">
+                  <div class="text_wrapper">
+                     <div class="top">contact</div>
+                     <div class="bottom" aria-hidden="true">contact</div>
+                  </div>
+                  <h3 class="sub_title">get in touch</h3>
+                  <div class="contact_content">
+                     <div class="contactContain">
+                        <div class="contact_info" data-reveal="left">
+                           <h3 class="con_title">contact info</h3>
+                           <ul class="contact_details">
+                              <li class="contact_item">
+                                 <div class="contact_icon">
+                                    <i class="ri-mail-send-line"></i>
+                                 </div>
+                                 <div class="contact_method">
+                                    <span>email</span>
+                                    <div>email@gmail.com</div>
+                                    <a href="mailto:email@gmail.com" target="_blank">
+                                       <span>send <i class="ri-arrow-right-up-line"></i></span>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li class="contact_item">
+                                 <div class="contact_icon">
+                                    <i class="ri-messenger-line"></i>
+                                 </div>
+                                 <div class="contact_method">
+                                    <span>messenger</span>
+                                    <div>perry.Dom-fb124</div>
+                                    <a href="" target="_blank">
+                                       <span>send <i class="ri-arrow-right-up-line"></i></span>
+                                    </a>
+                                 </div>
+                              </li>
+                              <li class="contact_item">
+                                 <div class="contact_icon">
+                                    <i class="ri-whatsapp-line"></i>
+                                 </div>
+                                 <div class="contact_method">
+                                    <span>whatsapp</span>
+                                    <div>+12 345 678 90</div>
+                                    <a href="" target="_blank">
+                                       <span>send <i class="ri-arrow-right-up-line"></i></span>
+                                    </a>
+                                 </div>
+                              </li>
+                           </ul>
+                           <h3 class="con_title">social info</h3>
+                           <ul class="contact_social_links icns">
+                              <li><a href=""><i class="ri-facebook-line"></i></a></li>
+                              <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                              <li><a href=""><i class="ri-linkedin-line"></i></a></li>
+                           </ul>
+                        </div>
+                        <div class="contactForm_container" data-reveal="right">
+                           <h2>lets work <span>together</span></h2>
+                           <p>Bold of you to assume I will answer within 24 hours!</p>
+                           <form action="" id="contact_form">
+                              <div class="input_group">
+                                 <input type="text" name="full_name" placeholder="name *" required>
+                              </div>
+                              <div class="input_group">
+                                 <input type="text" name="email" placeholder="email *" required autocomplete="off">
+                              </div>
+                              <div class="input_group">
+                                 <input type="text" name="subject" placeholder="your subject *" required>
+                              </div>
+                              <div class="input_group">
+                                 <textarea name="message" id="" placeholder="your message *" required></textarea>
+                              </div>
+                              <div class="input_group send_message">
+                                 <button class="submit_btn new_btn" type="submit">send message</button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
       </main>
 
       <!--==================== FOOTER ====================-->
-
+      <footer class="footer">
+         <div class="footer_container">
+            <div class="footer_section about">
+               <h3 class="sub_title">about me</h3>
+               <p>A passionate web designer and developer creating unique experiences with modern technology. 
+                  Let's build something amazing together!
+               </p>
+            </div>
+            <div class="footer_section links">
+               <h3 class="sub_title">quick links</h3>
+               <ul>
+                  <li><a href="#home">home</a></li>
+                  <li><a href="#about">about</a></li>
+                  <li><a href="#portfolio">portfolio</a></li>
+                  <li><a href="#contact">contact</a></li>
+               </ul>
+            </div>
+            <div class="footer_section social">
+               <h3 class="sub_title">connect</h3>
+               <div class="social_icons icns">
+                  <a href="" class="icon"><i class="ri-whatsapp-line"></i></a>
+                  <a href="" class="icon"><i class="ri-twitter-line"></i></a>
+                  <a href="" class="icon"><i class="ri-linkedin-line"></i></a>
+                  <a href="" class="icon"><i class="ri-instagram-line"></i></a>
+               </div>
+            </div>
+            <div class="footer_section contact">
+               <h3 class="sub_title">contact</h3>
+               <p><i class="ri-mail-send-line icon"></i> example@gmail.com</p>
+               <p><i class="ri-phone-line icon"></i> +1234567890</p>
+               <p><i class="ri-map-pin-line icon"></i> your city, country</p>
+            </div>
+         </div>
+      </footer>
+      <div class="footer_bottom">
+         <p>@ 2025 NerdyCodeCrafter. All Rights Reserved</p>
+      </div>
       <!--========== SCROLL UP ==========-->
-
+      <button class="backtoTop" aria-label="Back to Top">
+         <i class="ri-arrow-up-line"></i>
+      </button>
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
    </body>
